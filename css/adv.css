@@ -25,6 +25,10 @@
   border-bottom: 1px solid #55565A;
 }
 
+.adv-center-item:nth-last-child(2) {
+  border-bottom: none;
+}
+
 .adv-item__description {
   font-family: Arial;
   font-size: 24px;
@@ -33,7 +37,7 @@
 }
 
 .adv-center__button {
-  padding: 32px 269px;
+  padding: 32px 0 32px 0;
   font-family: Arial;
   font-size: 24px;
   font-weight: 900;

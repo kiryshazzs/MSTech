@@ -1,0 +1,115 @@
+.feedback {
+  padding-top: 100px;
+  background-color: #282829;
+  color: #fff;
+}
+
+.feedback-form {
+  padding: 72px 134px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 2px solid #D5C9BE;
+  border-radius: 30px;
+  background-image: url(../images/form-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.feedback-form__title {
+  margin-bottom: 45px;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 110%;
+  color: #38535D;
+}
+
+.feedback-form__input {
+  width: 780px;
+  padding: 14px 38px;
+  margin-bottom: 13px;
+  font-size: 24px;
+  font-family: Arial;
+  border: 2px solid #D6D6D6;
+  border-radius: 4px;
+  color: #55565A;
+}
+
+.feedback-form__input::placeholder {
+  opacity: 0.2;
+}
+
+.feedback-form__rules {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.feedback-form__checkbox {
+  appearance: none;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #787878;
+  border-radius: 4px;
+  margin: 12px 0 26px 0;
+}
+
+.feedback-form__checkbox::after {
+  content: "✓";
+  position: absolute;
+  top: -4px;
+  left: 3px;
+  width: 0px;
+  height: 0px;
+  font-size: 20px;
+  font-weight: 900;
+  transition: 200ms;
+  overflow: hidden;
+  color: #405D65;
+}
+
+.feedback-form__checkbox:checked::after {
+  width: 30px;
+  height: 30px;
+  transition: 200ms;
+}
+
+.feedback-form__checkbox-text {
+  margin-top: -10px;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #55565A;
+}
+
+.feedback-form__btn {
+  max-width: 780px;
+  padding: 32px 0 32px 0;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 150%;
+  letter-spacing: 2px;
+  color: #FFF;
+  border-radius: 4px;
+  border: 2px solid #282829;
+  cursor: pointer;
+  background-color: #282829;
+  transition: 350ms;
+}
+
+.feedback-form__btn:hover {
+  background-color: transparent;
+  color: #282829;
+}
+
+.feedback__girl {
+  position: absolute;
+  top: -140px;
+  right: 92px;
+  max-height: 760px;
+  overflow: hidden;
+}
