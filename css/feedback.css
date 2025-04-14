@@ -5,6 +5,7 @@
 }
 
 .feedback-form {
+  height: 628px;
   padding: 72px 134px;
   position: relative;
   display: flex;
@@ -110,6 +111,42 @@
   position: absolute;
   top: -140px;
   right: 92px;
-  max-height: 760px;
+  max-height: 766px;
   overflow: hidden;
+}
+
+.error {
+  display: block;
+  color: #c72f2f;
+  font-size: 12px;
+  position: relative;
+  top: -10px;
+  opacity: 0;
+}
+
+.active {
+  opacity: 1;
+}
+
+.success {
+  display: none;
+}
+
+.success-active {
+  height: 628px;
+  padding: 72px 134px;
+  display: flex  ;
+  align-items: center;
+  justify-content: center;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 110%;
+  border: 2px solid #D5C9BE;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #38535D;
+}
+
+.success-text {
+  font-size: 100px;
 }

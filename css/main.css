@@ -75,5 +75,5 @@
   position: absolute;
   top: 0px;
   right: 0;
-  height: 100vh;
+  height: calc(100vh - 112px);
 }

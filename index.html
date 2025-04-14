@@ -105,16 +105,17 @@
           Consectetur <br> sed do eiusmod
         </h2>
 
-        <input type="text" name="name" placeholder="Name" class="feedback-form__input">
-        <span class="error" id="error-name"></span>
+        <input type="text" name="name" placeholder="Name" class="feedback-form__input" id="name">
+        <span class="error" id="error-name">.</span>
 
-        <input type="email" name="email" placeholder="E-mail" class="feedback-form__input">
-        <span class="error" id="error-mail"></span>
+        <input type="email" name="email" placeholder="E-mail" class="feedback-form__input" id="email">
+        <span class="error" id="error-mail">.</span>
         
         <div class="feedback-form__rules">
           <input type="checkbox" class="feedback-form__checkbox" name="agree" value="yes">
           <label for="" class="feedback-form__checkbox-text">I accept Privacy policy</label>
-        </div>  
+        </div>
+        <span class="error" id="error-checkbox">.</span>
 
         <button class="feedback-form__btn">
           SUBMIT FORM
@@ -124,6 +125,9 @@
           <img src="./images/form-grl.png" alt="">
         </div>
       </form>
+      <div class="success" id="success">
+        <p class="success-text">Success</p>
+      </div>
     </div>
   </section>
 
@@ -140,7 +144,6 @@
       </a>
     </div>
     <div class="footer-container wrapper">
-
         <h2 class="logo footer__logo">
           LOREM
         </h2>
@@ -148,14 +151,10 @@
           © 2024, Copyright.
         </p>
 
-
-
         <img src="./images/footer-icons.png" alt="" class="footer__icons">
         <p class="footer__policy footer__text">
           Privacy policy
         </p>
-
-
 
         <button class="footer__button">
           ORDER
@@ -163,9 +162,9 @@
         <p class="footer__terms footer__text">
           Terms of Use
         </p>
-
     </div>
   </footer>
 
+  <script defer src="./js/script.js"></script>
 </body>
 </html>
